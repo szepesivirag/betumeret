@@ -8,7 +8,7 @@ int main()
     do{
         int meret=0;
         char ur;
-        printf("Kerem adja meg a betu meretet: ");
+        printf("Kerem adja meg a méretet: ");
         if ( ( (scanf("%d",&meret))==1) && (meret%2==1) && (meret>0) ){
             for(int i=0;i<meret;i++){
                 if (meret!=3){
